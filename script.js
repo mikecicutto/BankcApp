@@ -144,7 +144,13 @@ btnLogin.addEventListener('click', function (e) {
   console.log(currentAccount);
 
   if (currentAccount?.pin === Number(inputLoginPin.value)) {
-    console.log('LOGIN');
+    // Display UI & welcome message
+    labelWelcome.textContent = `Welcome back, ${currentAccount.owner.split(' ')[]}`
+    // Display movements
+
+    // Display balance
+
+    // Display summary
   }
 });
 
