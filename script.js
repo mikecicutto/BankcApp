@@ -540,8 +540,6 @@ console.log(movements.some(mov => mov === -130));
 const anyDeposits = movements.some(mov => mov > 0);
 console.log(anyDeposits);
 
-
-
 // EVERY
 console.log(movements.every(mov => mov > 0));
 console.log(account4.movements.every(mov => mov > 0));
@@ -551,7 +549,7 @@ const deposit = mov => mov > 0;
 console.log(movements.some(deposit));
 console.log(movements.every(deposit));
 console.log(movements.filter(deposit));
-*/
+
 
 ///////////////////////////////////////
 // flat and flatMap
@@ -574,7 +572,7 @@ const overalBalance2 = accounts
   .reduce((acc, mov) => acc + mov, 0);
 console.log(overalBalance2);
 
-/*
+
 ///////////////////////////////////////
 // Sorting Arrays
 
